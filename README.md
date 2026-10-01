@@ -6,7 +6,7 @@ On that build the original mod fails in one of three ways:
 
 | Symptom | Cause |
 |---|---|
-| Game closes at startup; `DSROmniRoll_v1.01_Bridge.log` says `FATAL: DSR+0x82F790 is not the expected FF 25 XInput jump thunk` and an error message displays: `The system does not meet the minimum DX11 / Shader Model 5.0 GPU requirement to run the application`.  | Every game address in the mod is for a newer build |
+| Game closes at startup; `DSROmniRoll_v1.01_Bridge.log` says `FATAL: DSR+0x82F790 is not the expected FF 25 XInput jump thunk` and an error message displays: `The system does not meet the minimum DX11 / Shader Model 5.0 GPU requirement to run the application`  | Every game address in the mod is for a newer build |
 | With only that address fixed, the game crashes when you press **Continue** or load a save | Two more hardcoded game functions |
 | With the crash fixed, **every roll goes forward**, whatever direction you press | The player data layout is 0x20 bytes shorter on this build |
 
