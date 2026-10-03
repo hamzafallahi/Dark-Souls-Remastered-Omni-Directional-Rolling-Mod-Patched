@@ -98,7 +98,7 @@ See [docs/HOW_IT_WORKS.md](docs/HOW_IT_WORKS.md): the original mod's structure, 
 
 - **DSROmniRoll** and all of its rolling logic: the original author, [Nexus Mods #1378](https://www.nexusmods.com/darksoulsremastered/mods/1378). This project only relocates its hooks for another game build. Please endorse the original.
 - Launch-build port, patcher and documentation: **Hamza Fallahi**.
-- The reverse engineering and the patch tooling were done with x64dbg, HxD, and a lot of help from Gemini xD.
+- The reverse engineering and the patch tooling were done with x64dbg, HxD, and a lot of help from Gemini ofc.
 
 ## License
 
